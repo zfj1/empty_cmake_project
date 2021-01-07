@@ -3,6 +3,10 @@ project(blank_project)
 
 add_subdirectory(src)
 add_subdirectory(examples)
+add_subdirectory(tests)
+
+# # GoogleTest
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/googletest)
 
 # ## Documentation
 # # Doxygen
